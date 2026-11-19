@@ -29,7 +29,7 @@ python zero_shot.py
 Com Docker, a partir da pasta do seminário:
 
 ```bash
-docker build -t representation-learning
+docker build -t representation-learning exemplos
 mkdir -p exemplos/results
 docker run --rm --mount "type=bind,source=${PWD}/exemplos/results,target=/app/results" representation-learning
 ```
